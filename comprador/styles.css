@@ -194,3 +194,62 @@
 .hidden{
     display: none;
 }
+
+
+footer{
+    background-color:#222;
+    height: 300px;
+}
+
+.mainmenu{
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo-piepag{
+    color: white;
+    font-size: 50px;
+    margin: 0 0 10px 0;
+}
+
+.contact{
+    margin: 10px 0 10px 0;
+    color: white;
+    font-size: 30px;
+}
+
+.cont-item{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.correo-item{
+    margin: 0 40px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.telefono-item{
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover{
+    color: #3AA8AD;
+}
+
+.copy{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
